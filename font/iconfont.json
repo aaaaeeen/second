@@ -1,0 +1,23 @@
+{
+  "id": "3794630",
+  "name": "Sign_up",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9927210",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "11372707",
+      "name": "叹号",
+      "font_class": "tanhao",
+      "unicode": "e8ba",
+      "unicode_decimal": 59578
+    }
+  ]
+}

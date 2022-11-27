@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up</title>
+    <link rel="stylesheet" href="Sign_up.css">
+</head>
+<style>
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.woff2?t=1669522972244') format('woff2'),
+        url('font/iconfont.woff?t=1669522972244') format('woff'),
+        url('font/iconfont.ttf?t=1669522972244') format('truetype');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 50px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
+<body>
+    <!-- 包括背景图+亮度蒙版+流星 -->
+    <div class="back">
+        <img src="images/Background.png" class="background">
+        <img src="images/back.png" class="transparent">
+        <img src="images/back2.png" class="star" >
+    </div>
+
+    <!-- 包括正中间的sign up+左右两个图标 -->
+    <div class="ttitle">
+        <span class="iconfont">&#xe636;</span>
+        <p class="sign_up">Sign Up</p>
+        <span class="iconfont">&#xe8ba;</span>
+    </div>
+
+    <!-- 包括一个圆形头像（其中有加号和photo字样）+四行文字输入 -->
+    <div class="inform">
+        <div class="inform1">
+            <p id="photo_eng">Photo</p>
+            <img src="images/photo_cir.png" id="photo_cir">
+            <img src="images/photo_plus.png" id="photo_plus">
+        </div>
+        <div class="inform2">
+            <p>First Name</p><hr>
+            <p>Last Name</p><hr>
+            <p>Email Address</p><hr>
+            <div class="password">
+                <p>Password</p>
+                <p id="show">Show</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 包括一个按钮+文字备注 -->
+    <div class="button">
+        <p>Sign Up</p>
+        <div class="button_add">
+            <div class="b1">Already a member?</div>
+            <div class="b2">&nbsp;Sign In</div>
+        </div>  
+    </div>
+</body>
+</html>
